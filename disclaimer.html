@@ -3,203 +3,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legal Disclaimer & Mountain Safety Notice | WindBreakGear Official</title>
-    <meta name="description" content="Critical disclosures concerning wilderness risk assumption, technical rating parameters, and outerwear limitations.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    <title>Disclaimer & Mountain Safety Notices | WindbreakGear</title>
+    <meta name="description" content="Official legal and operational disclaimer detailing mountain weather safety, technical outerwear limitations, and personal responsibility at WindbreakGear.">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <!-- Google Tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0LY0HY7L01"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-0LY0HY7L01');
-</script>
-
-<header class="site-header">
-    <div class="container header-inner">
-        <a href="index.html" class="brand-logo" aria-label="WindBreakGear Homepage">
-            <span class="brand-icon">W</span>
-            <span>WindBreakGear</span>
-        </a>
-        <nav class="nav-desktop" aria-label="Primary Navigation">
-            <a href="index.html" class="nav-link ">Home</a>
-            <a href="about.html" class="nav-link ">About</a>
-            <a href="index.html#jackets" class="nav-link">Jackets</a>
-            <a href="blog.html" class="nav-link ">Blog</a>
-            <a href="contact.html" class="nav-link ">Contact</a>
-            <!-- Policy links hidden on desktop (>1140px) via .nav-item-policy -->
-            <a href="privacy-policy.html" class="nav-link nav-item-policy">Privacy</a>
-            <a href="terms-and-conditions.html" class="nav-link nav-item-policy">Terms</a>
-            <a href="disclaimer.html" class="nav-link nav-item-policy">Disclaimer</a>
-            <a href="cookie-policy.html" class="nav-link nav-item-policy">Cookies</a>
-        </nav>
-        <div class="header-cta-group">
-            <a href="index.html#jackets" class="btn btn-primary">Shop Windbreakers</a>
-            <button class="menu-toggle-btn" id="menuToggle" aria-label="Open mobile navigation menu">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0LY0HY7L01"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-0LY0HY7L01');
+    </script>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="site-logo">Windbreak<span>Gear</span></a>
+            <nav class="nav-desktop">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link ">Home</a></li>
+                    <li><a href="about.html" class="nav-link ">About</a></li>
+                    <li><a href="about.html#jackets" class="nav-link">Jackets</a></li>
+                    <li><a href="blog.html" class="nav-link ">Journal</a></li>
+                    <li><a href="contact.html" class="nav-link ">Contact</a></li>
+                    <!-- Policy Links Hidden on Desktop via .nav-item-policy -->
+                    <li class="nav-item-policy"><a href="privacy-policy.html" class="nav-link">Privacy Policy</a></li>
+                    <li class="nav-item-policy"><a href="terms-and-conditions.html" class="nav-link">Terms & Conditions</a></li>
+                    <li class="nav-item-policy"><a href="disclaimer.html" class="nav-link">Disclaimer</a></li>
+                    <li class="nav-item-policy"><a href="cookie-policy.html" class="nav-link">Cookie Policy</a></li>
+                </ul>
+                <a href="contact.html" class="btn btn-primary">Shop Biker Jackets</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Toggle Mobile Menu">
+                <span></span>
+                <span></span>
+                <span></span>
             </button>
         </div>
+    </header>
+    <div class="mobile-drawer">
+        <ul class="mobile-nav-list">
+            <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+            <li><a href="about.html" class="mobile-nav-link">About Atelier</a></li>
+            <li><a href="about.html#jackets" class="mobile-nav-link">Technical Jackets</a></li>
+            <li><a href="blog.html" class="mobile-nav-link">Outerwear Journal</a></li>
+            <li><a href="contact.html" class="mobile-nav-link">Contact & Fitting</a></li>
+            <li><a href="privacy-policy.html" class="mobile-nav-link">Privacy Policy</a></li>
+            <li><a href="terms-and-conditions.html" class="mobile-nav-link">Terms & Conditions</a></li>
+            <li><a href="disclaimer.html" class="mobile-nav-link">Disclaimer</a></li>
+            <li><a href="cookie-policy.html" class="mobile-nav-link">Cookie Policy</a></li>
+        </ul>
     </div>
-</header>
-
-<!-- Mobile Off-Canvas Drawer -->
-<div class="drawer-backdrop" id="drawerBackdrop"></div>
-<aside class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation Menu">
-    <div class="drawer-header">
-        <div class="brand-logo">
-            <span class="brand-icon">W</span>
-            <span>WindBreakGear</span>
-        </div>
-        <button class="drawer-close-btn" id="drawerClose" aria-label="Close mobile menu">&times;</button>
-    </div>
-    <nav class="drawer-nav">
-        <a href="index.html" class="drawer-link">Home</a>
-        <a href="about.html" class="drawer-link">About Outerwear</a>
-        <a href="index.html#jackets" class="drawer-link">Jackets Collection</a>
-        <a href="blog.html" class="drawer-link">Technical Blog</a>
-        <a href="contact.html" class="drawer-link">Contact & Studio</a>
-        <hr style="border: 0; border-top: 1px solid var(--color-border); margin: 0.5rem 0;">
-        <a href="privacy-policy.html" class="drawer-link">Privacy Policy</a>
-        <a href="terms-and-conditions.html" class="drawer-link">Terms & Conditions</a>
-        <a href="disclaimer.html" class="drawer-link">Disclaimer</a>
-        <a href="cookie-policy.html" class="drawer-link">Cookie Policy</a>
-    </nav>
-    <a href="index.html#jackets" class="btn btn-primary" style="width: 100%;">Explore Jackets</a>
-</aside>
-
-    <main class="section">
-        <div class="container">
-            <div class="policy-container">
-                <span class="section-eyebrow">Institutional Governance</span>
-                <h1>Legal Disclaimer & Mountain Safety Notice</h1>
-                <p style="font-size: 0.95rem; color: var(--color-text-muted); margin-bottom: 2.5rem;">Document Identifier: WBG-DOC-2026-V4 &bull; Last Revised: September 10, 2026 &bull; Certified Official Document</p>
-                <div class="policy-content">
-                    
-            <h2>1. Wilderness Risk Assumption and Inherent Alpine Hazards</h2>
-            <p>
-                High-altitude mountaineering, backcountry ski touring, alpine climbing, and wilderness backpacking are inherently dangerous outdoor pursuits that expose participants to extreme environmental perils. While WindBreakGear technical windbreakers are engineered to deliver industry-leading thermal wind resistance and moisture protection, no outer shell garment can guarantee immunity against hypothermia, frostbite, sudden blizzards, or catastrophic weather shifts. Extreme mountain environments frequently generate meteorological events that exceed the theoretical physical capabilities of any textile membrane or seam construction. Customers who purchase and utilize our outerwear voluntarily assume full personal legal responsibility for evaluating ambient weather forecasts, carrying adequate backup survival gear, and recognizing the onset of hypothermic emergencies.
-            </p>
-            <p>
-                The information, technical specifications, and mountaineering advice disseminated across the WindBreakGear website, blogs, and marketing materials are intended strictly for educational and illustrative purposes. They do not substitute for formal professional mountaineering instruction, certified wilderness first responder training, or seasoned route navigation judgment. WindBreakGear Inc., its corporate officers, textile designers, and retail associates explicitly disclaim all legal liability for personal injury, hypothermic illness, physical trauma, or accidental death resulting from poor route finding, unexpected weather entrapment, or reckless backcountry decision-making. Wearers must always exercise sound judgment, maintain conservative turnaround times, and carry emergency bivy shelters regardless of the technical grade of outerwear worn.
-            </p>
-
-            <h2>2. Laboratory Hydrostatic and Breathability Metrics Context</h2>
-            <p>
-                All numerical ratings presented within our marketing collateral—including our 0.00 CFM wind permeability rating, 28,000mm hydrostatic head rating, and 28,500 g/m&sup2;/24h moisture vapor transmission rate (MVTR)—are derived from standardized laboratory testing apparatuses. These trials are conducted under controlled barometric pressure, standardized humidity gradients, and uniform mechanical tension compliant with ASTM and ISO international textile testing protocols. While these standardized metrics offer a rigorous, objective benchmark for comparing textile membrane efficiencies, real-world field conditions introduce dynamic environmental variables that cannot be duplicated inside a static climate chamber. Factors such as external barometric pressure drops, frozen snowpack abrasion, sustained driving rain velocity, and internal metabolic sweat rates heavily influence actual performance.
-            </p>
-            <p>
-                In high-humidity, sub-zero rainstorms, atmospheric humidity outside the jacket can match or exceed internal relative humidity, temporarily retarding the passive diffusion of gaseous sweat vapor through the micro-porous membrane. In such conditions, wearers may observe localized moisture dampness upon the interior lining of the jacket. This phenomenon represents internal metabolic condensation rather than external fabric leakage or membrane breakdown. WindBreakGear strongly advises wearers to actively manage their physiological ventilation by utilizing our underarm pit zippers and front two-way zipper pulls to vent warm humid air during high-exertion ascents, preserving a dry internal microclimate and preventing post-climb chill.
-            </p>
-
-            <h2>3. External Chemical Contact and Membrane Degradation Warning</h2>
-            <p>
-                Technical expanded micro-porous membranes and eco-friendly C0 durable water repellent (DWR) coatings are engineered from sophisticated polymeric compounds that can be degraded by improper chemical exposure. Contact with solvent-based insect repellents (especially formulations containing high concentrations of N,N-Diethyl-meta-toluamide, commonly known as DEET), petroleum-based sunscreens, concentrated hydrocarbon fuels, or open campfire cinders can permanently compromise the hydrophobic surface tension of the fabric. Wearers are cautioned that DEET and similar chemical solvents dissolve the polyurethane bonding tape sealing our seams and can liquefy the ultra-thin breathable membrane within seconds of direct contact.
-            </p>
-            <p>
-                WindBreakGear explicitly disclaims warranty liability for fabric degradation, localized seam ungluing, or water leakage resulting from chemical contamination, improper aerosol application, or contact with open flames. We recommend utilizing picaridin-based insect repellents, which do not harm technical synthetic fabrics, and applying all sunscreens thoroughly to exposed skin prior to donning technical windbreakers. Furthermore, washing our garments with commercial fabric softeners, bleach solutions, or heavy dry-cleaning solvents permanently coats the micro-pores and destroys the C0 DWR water-beading capabilities. Wearers must adhere strictly to our published laundering protocols to maintain the protective integrity of their investment.
-            </p>
-
-            <h2>4. Third-Party Web Links and Digital Accuracy Reservation</h2>
-            <p>
-                Our digital platform may occasionally feature contextual hyperlinks directing users to external websites, independent outdoor research institutions, meteorological forecasting services, or certified avalanche forecast centers. These third-party web addresses are curated solely for the educational convenience and trail planning assistance of our global outdoor community. WindBreakGear exercises zero operational control over the administrative policies, content accuracy, server security, or privacy protocols maintained by external organizations. The inclusion of any third-party link does not constitute an explicit institutional endorsement or legal sponsorship of the linked entity, their services, or their published avalanche hazard evaluations.
-            </p>
-            <p>
-                While we deploy exhaustive editorial efforts to verify the accuracy of all technical specifications, sizing dimensions, and inventory statuses published across our digital domain, inadvertent typographical errors or technological omissions may occur. We reserve the statutory right to amend technical data, update expedition recommendations, and rectify pricing oversights without prior public notice, without incurring commercial liability to previous purchasers. Patrons relying upon technical mountaineering data published herein do so at their own discretion, and are encouraged to cross-reference route conditions with local forest service rangers and certified guide associations before embarking into hazardous alpine terrain.
-            </p>
-            
-
-                    <!-- User Mandated: Dedicated Institutional Contact Card on ALL Policy Pages -->
-                    <div class="policy-contact-card">
-                        <h3>Customer Care, Outerwear Inquiries & Legal Compliance</h3>
-                        <p>
-                            For formal legal notices, warranty assessments, membrane technical certifications, or private data access requests, please direct all official communications to our Mercer Street compliance team:
-                        </p>
-                        <div class="policy-contact-grid">
-                            <div class="contact-meta-item">
-                                <strong>Physical Design Atelier</strong>
-                                <span>181 Mercer Street, New York, NY 10012, United States</span>
-                            </div>
-                            <div class="contact-meta-item">
-                                <strong>Telephone Customer Care</strong>
-                                <span>+1-888-777-5845 (Toll-Free USA & Canada)</span>
-                            </div>
-                            <div class="contact-meta-item">
-                                <strong>Dedicated Compliance Email</strong>
-                                <span>care@windbreakgear.com</span>
-                            </div>
-                            <div class="contact-meta-item">
-                                <strong>Response Service Level Agreement</strong>
-                                <span>All written communications resolved within 24 business hours</span>
-                            </div>
-                        </div>
-                        <div style="margin-top: 1.5rem;">
-                            <a href="contact.html" class="btn btn-primary">Contact Mercer Studio Directly</a>
-                        </div>
-                    </div>
-                </div>
+    
+    <main>
+        <div class="policy-container">
+            <div class="policy-header">
+                <span class="section-eyebrow">Consumer Transparency</span>
+                <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem;">Legal & Operational Disclaimer</h1>
+                <p class="policy-meta">Effective Date: January 1, 2026 | Last Comprehensive Legal Review: September 2026</p>
             </div>
+
+            <section class="policy-section">
+                <h2>1. Technical Guidance & Educational Nature of Monographs</h2>
+                <p>The aerodynamic wind tunnel reports, membrane breathability studies, and textile engineering research monographs published within our technical journal are compiled strictly for general educational and informational enrichment. While our research contributors include experienced mountaineering guides, textile materials scientists, and aerodynamic engineers, the informational content does not constitute certified mountaineering instruction or professional alpine survival training. Mountain weather patterns, hypothermia risk thresholds, and high-altitude physiological stress factors vary dramatically depending on geographic elevation, sudden storm fronts, and individual physical conditioning. Readers are strongly advised to complete certified wilderness safety courses, monitor official meteorological forecasts, and carry redundant survival gear rather than relying exclusively on our outerwear performance ratings.</p>
+                <p>WindbreakGear Outerwear LLC assumes zero legal liability for any adverse physical consequences, hypothermic episodes, or outdoor injuries arising from individual route planning decisions or erroneous weather assumptions during mountain expeditions. While our technical windbreaker jackets are laboratory tested to block 100 percent of convective wind penetration, they do not function as self-heating life-support systems capable of generating metabolic body warmth independently. Climbers and hikers remain solely accountable for carrying appropriate thermal mid-layers, monitoring personal energy expenditure, and knowing when to turn back during severe mountain weather events. We encourage all outdoor athletes to prioritize sound wilderness decision-making to ensure every mountain adventure is inspiring, rewarding, and safely concluded.</p>
+            </section>
+
+            <section class="policy-section">
+                <h2>2. Extreme Mountain Weather & Physical Risk Acknowledgment</h2>
+                <p>Mountaineering, alpine climbing, backcountry skiing, and high-altitude trail running are inherently hazardous recreational activities that carry unavoidable risks of physical injury, frostbite, exhaustion, and accidental death. No piece of technical outerwear—regardless of how meticulously engineered, waterproof, or windproof it may be—can guarantee total protection against extreme meteorological phenomena such as severe blizzard whiteouts, hurricane-force summit gales, sudden avalanches, or lightning strikes. Outdoor athletes must exercise comprehensive risk assessment, verify their personal physical competence, and maintain proper mountaineering training prior to attempting hazardous alpine ascents. WindbreakGear explicitly disclaims all liability for accidental injury or death sustained while engaged in outdoor activities wearing our garments.</p>
+                <p>Furthermore, improper layering, wearing saturated cotton base layers beneath waterproof shells, or failing to vent technical garments during intense uphill climbing can lead to severe internal condensation accumulation. When activity ceases, accumulated sweat rapidly cools, precipitating severe post-exertion chill that can induce rapid hypothermia even while wearing a fully windproof jacket. Patrons must invariably employ intelligent moisture-wicking synthetic or merino wool base layers and actively utilize underarm pit zips to regulate body temperature during variable exertion levels. WindbreakGear accepts no legal or financial responsibility for medical expenses or search-and-rescue costs incurred due to improper layering practices or negligent mountain travel decisions. Sound wilderness risk management remains the sole responsibility of the individual adventurer.</p>
+            </section>
+
+            <section class="policy-section">
+                <h2>3. Natural Textile Wear, Tear & Puncture Vulnerabilities</h2>
+                <p>Technical windbreaker textiles, lightweight microporous laminates, and ultralight ripstop nylon are high-performance materials optimized for an ideal balance of tear resistance, wind blocking, and low carry weight. However, these specialized textiles are not impervious to mechanical cutting, sharp rock abrasions, crampon punctures, ice axe gouges, or campfire ember burns. Puncturing or abrading the outer fabric layer can compromise the underlying waterproof membrane, creating localized moisture pathways that are not covered under our manufacturing defect warranty. WindbreakGear provides no warranty against routine mechanical wear and tear, punctures from sharp mountaineering hardware, or chemical degradation caused by contact with aggressive insect repellents or petroleum solvents.</p>
+                <p>Ultralight running shells engineered from 10-denier to 20-denier nylon fabrics demand careful handling and should not be worn while bushwhacking through dense thorn brush or carrying heavy, abrasive external-frame backpacks. Over time, all technical garments will display signs of honest mountain use, including softened hand-feel, minor seam tape edge lifting, and faded reflective accents that reflect their active trail history. These natural aging characteristics represent the normal lifecycle of performance sportswear and do not indicate defective manufacturing or structural failure under regular domestic outdoor use. Patrons seeking indestructible, heavy-duty workwear surfaces are encouraged to consider heavyweight waxed canvas or industrial vinyl workwear rather than ultralight alpine shells.</p>
+            </section>
+
+            <section class="policy-section">
+                <h2>4. Chemical Insect Repellents & Solvent Warnings</h2>
+                <p>Certain chemical compounds commonly found in commercial insect repellents—most notably N,N-Diethyl-meta-toluamide (DEET)—function as aggressive organic plasticizers capable of dissolving synthetic technical textiles. Applying high-concentration DEET sprays directly onto our technical jackets can chemically melt polyurethane seam tapes, dissolve waterproof membrane coatings, and weaken nylon fibers within minutes of contact. Customers must exercise extreme caution to prevent direct chemical contact between insect repellents, sunscreen lotions, industrial solvents, or petroleum fuels and their technical outerwear garments.</p>
+                <p>WindbreakGear explicitly disclaims all warranty liability for fabric melting, membrane delamination, or seam tape failure caused by exposure to DEET or aggressive chemical solvents. Outdoor enthusiasts requiring insect protection while wearing technical jackets are strongly advised to utilize picaridin-based or permethrin-treated alternative repellents, which do not harm synthetic outdoor fabrics or waterproof membranes. In the event of accidental solvent or DEET contact, patrons must immediately rinse the affected garment with copious amounts of cool fresh water and mild liquid soap to minimize chemical absorption into the membrane matrix.</p>
+            </section>
+
+            <section class="policy-section">
+                <h2>5. Third-Party Links, External Trails & Route Disclaimers</h2>
+                <p>Our digital portal may periodically feature hyperlinks directing visitors to external websites, independent outdoor blogs, regional trail condition databases, and mountaineering guide services not operated or maintained by WindbreakGear Outerwear LLC. These external references are provided strictly as a convenient courtesy to enrich your mountain knowledge and connect you with the broader outdoor community. WindbreakGear exercises no operational or editorial control over external third-party digital properties and cannot guarantee the accuracy, safety, trail status, or legal compliance of external content. The inclusion of any external link does not imply institutional endorsement, corporate partnership, or formal warranty of external route descriptions or guide credentials.</p>
+                <p>Visitors who navigate to third-party web domains do so entirely at their own discretion and subject to the independent privacy terms and usage conditions established by those destination platforms. WindbreakGear bears zero responsibility or legal liability for any damages, personal injuries, route deviations, or financial transactions resulting from your reliance upon external trail guides or third-party purveyors. We encourage our patrons to verify official national park trail reports and consult certified mountain guides prior to embarking on unfamiliar alpine routes. Our responsibility remains strictly confined to the digital boundaries of the WindbreakGear domain and the physical craftsmanship of our own Mercer Street outerwear collections.</p>
+            </section>
+
+            <section class="policy-section">
+                <h2>6. Maximum Aggregate Liability & Consumer Statutory Limitations</h2>
+                <p>To the fullest extent permissible under prevailing statutory jurisprudence, WindbreakGear Outerwear LLC, its managing members, technical textile designers, employees, and logistics affiliates shall not be liable for any indirect, consequential, special, punitive, or incidental damages whatsoever. This limitation encompasses, without limitation, claims for missed summit attempts, interrupted backcountry expeditions, travel cancellation penalties, or emotional distress arising from delayed courier delivery or unexpected garment zipper malfunctions. Under no legal theory—whether sounding in contract, tort, strict product liability, or negligence—shall the aggregate legal liability of WindbreakGear exceed the total monetary sum actually remitted by the customer for the specific product giving rise to the dispute.</p>
+                <p>Certain state and national jurisdictions do not allow the exclusion or limitation of incidental or consequential damages, or the restriction of statutory implied consumer warranties, meaning that portions of the aforementioned limitations may not apply to specific patrons residing in those regions. In such jurisdictions, WindbreakGear's legal liability shall be strictly limited and enforced to the maximum degree permitted by governing regional consumer protection statutes. Should any provision of this disclaimer be adjudicated unlawful, void, or legally unenforceable by a competent court of law, that specific clause shall be severed without impairing the validity and full legal enforceability of the remaining operational sections.</p>
+            </section>
+
+            
+<div class="policy-card">
+    <h3>Customer Care, Technical Sizing & Legal Compliance Concierge</h3>
+    <p>If you require clarification regarding our outerwear warranties, return authorization, or wish to schedule an in-person technical jacket fitting, our team is available:</p>
+    <ul class="contact-details-list">
+        <li><strong>Physical Headquarters:</strong> 181 Mercer Street, New York, NY 10012, United States</li>
+        <li><strong>Telephone Hotline:</strong> +1-888-777-5845 (Toll-Free Domestic & International)</li>
+        <li><strong>Direct Compliance Email:</strong> care@windbreakgear.com</li>
+        <li><strong>Corporate Atelier Hours:</strong> Tuesday through Saturday, 10:00 AM &ndash; 6:30 PM Eastern Time</li>
+        <li><strong>Service Level Commitment:</strong> All formal regulatory inquiries, privacy audit submissions, and jacket sizing consultations receive an itemized response within 24 to 48 business hours.</li>
+    </ul>
+</div>
+
         </div>
     </main>
+    
     <footer class="site-footer">
-    <div class="container">
-        <div class="footer-grid">
-            <div class="footer-col">
-                <div class="brand-logo" style="color: #FFF; margin-bottom: 1rem;">
-                    <span class="brand-icon">W</span>
-                    <span>WindBreakGear</span>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a href="index.html" class="footer-logo">WindbreakGear</a>
+                    <p class="footer-desc">Engineering extreme-weather windbreaker jackets, ultralight mountain shells, 3-layer breathable membranes, and storm hoods engineered for gale-force alpine protection.</p>
+                    <p class="footer-desc"><strong>Mercer Atelier:</strong> 181 Mercer Street, New York, NY 10012, United States<br><strong>Telephone:</strong> +1-888-777-5845<br><strong>Inquiries:</strong> care@windbreakgear.com</p>
                 </div>
-                <p style="color: #94A3B8; font-size: 0.95rem; margin-bottom: 1.25rem;">
-                    Engineering alpine-grade windbreaker shells, micro-porous waterproof membranes, and packable stormwear designed to withstand hurricane-force summit winds.
-                </p>
-                <div class="footer-contact-info">
-                    181 Mercer Street, New York, NY 10012<br>
-                    Telephone: +1-888-777-5845<br>
-                    Atelier Email: care@windbreakgear.com
+                <div>
+                    <h4 class="footer-col-title">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" class="footer-link">Home Overview</a></li>
+                        <li><a href="about.html" class="footer-link">Outerwear Atelier</a></li>
+                        <li><a href="about.html#jackets" class="footer-link">Windbreaker Jackets</a></li>
+                        <li><a href="blog.html" class="footer-link">Technical Journal</a></li>
+                        <li><a href="contact.html" class="footer-link">Sizing & Concierge</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-col-title">Governance</h4>
+                    <ul class="footer-links">
+                        <li><a href="privacy-policy.html" class="footer-link">Privacy Policy</a></li>
+                        <li><a href="terms-and-conditions.html" class="footer-link">Terms & Conditions</a></li>
+                        <li><a href="disclaimer.html" class="footer-link">Disclaimer</a></li>
+                        <li><a href="cookie-policy.html" class="footer-link">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-col-title">Outerwear Journal</h4>
+                    <ul class="footer-links">
+                        <li><a href="blog/windproof-aerodynamics-and-boundary-layer-physics.html" class="footer-link">Aerodynamic Wind Physics</a></li>
+                        <li><a href="blog/3-layer-membrane-breathability-and-vapor-diffusion.html" class="footer-link">3-Layer Membrane Science</a></li>
+                        <li><a href="blog/fluorocarbon-free-c0-dwr-hydrophobic-chemistry.html" class="footer-link">C0 DWR Chemistry</a></li>
+                        <li><a href="blog/ultrasonic-seam-welding-and-waterproof-zipper-integrity.html" class="footer-link">Seam Welding & Zippers</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="footer-col">
-                <h4>Outerwear Shells</h4>
-                <ul class="footer-links">
-                    <li><a href="index.html#jackets">The GaleForce Alpine Pro</a></li>
-                    <li><a href="index.html#jackets">Ultralight Trail Wind Shell</a></li>
-                    <li><a href="index.html#jackets">StormFront Anorak 3L</a></li>
-                    <li><a href="index.html#jackets">Packable Summit Hooded Jacket</a></li>
-                    <li><a href="about.html">Membrane Architecture</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Technical Research</h4>
-                <ul class="footer-links">
-                    <li><a href="blog/windproof-aerodynamics-and-boundary-layer-physics.html">Boundary Layer Physics</a></li>
-                    <li><a href="blog/fluorocarbon-free-c0-dwr-hydrophobic-chemistry.html">C0 Eco-DWR Chemistry</a></li>
-                    <li><a href="blog/3-layer-membrane-breathability-and-vapor-diffusion.html">3-Layer Vapor Diffusion</a></li>
-                    <li><a href="blog/ripstop-tensile-strength-and-cordura-reinforcement.html">Ripstop Tensile Mechanics</a></li>
-                    <li><a href="blog.html">Browse All Research</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Institutional & Legal</h4>
-                <ul class="footer-links">
-                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                    <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
-                    <li><a href="disclaimer.html">Legal Disclaimer</a></li>
-                    <li><a href="cookie-policy.html">Cookie Policy</a></li>
-                    <li><a href="contact.html">Customer Care & Support</a></li>
-                </ul>
+            <div class="footer-bottom">
+                <p>&copy; 2026 WindbreakGear Outerwear LLC. All rights reserved. Registered alpine apparel atelier.</p>
+                <p>181 Mercer Street, New York, NY 10012 | High-performance windproof jackets.</p>
             </div>
         </div>
-        <div class="footer-bottom">
-            <div>&copy; 2026 WindBreakGear Inc. All rights reserved. Registered Alpine Outerwear Standard.</div>
-            <div>Mercer Street Design Atelier &bull; NYC</div>
-        </div>
-    </div>
-</footer>
-<script src="assets/js/main.js"></script>
-
+    </footer>
+    <script src="assets/js/main.js"></script>
+    
 </body>
 </html>

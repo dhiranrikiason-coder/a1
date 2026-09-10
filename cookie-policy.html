@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Architecture & Tracking Disclosure | WindBreakGear Official</title>
+    <meta name="description" content="Transparent guidelines detailing our use of essential session cookies, analytics tags, and user consent management.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Google Tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0LY0HY7L01"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-0LY0HY7L01');
+</script>
+
+<header class="site-header">
+    <div class="container header-inner">
+        <a href="index.html" class="brand-logo" aria-label="WindBreakGear Homepage">
+            <span class="brand-icon">W</span>
+            <span>WindBreakGear</span>
+        </a>
+        <nav class="nav-desktop" aria-label="Primary Navigation">
+            <a href="index.html" class="nav-link ">Home</a>
+            <a href="about.html" class="nav-link ">About</a>
+            <a href="index.html#jackets" class="nav-link">Jackets</a>
+            <a href="blog.html" class="nav-link ">Blog</a>
+            <a href="contact.html" class="nav-link ">Contact</a>
+            <!-- Policy links hidden on desktop (>1140px) via .nav-item-policy -->
+            <a href="privacy-policy.html" class="nav-link nav-item-policy">Privacy</a>
+            <a href="terms-and-conditions.html" class="nav-link nav-item-policy">Terms</a>
+            <a href="disclaimer.html" class="nav-link nav-item-policy">Disclaimer</a>
+            <a href="cookie-policy.html" class="nav-link nav-item-policy">Cookies</a>
+        </nav>
+        <div class="header-cta-group">
+            <a href="index.html#jackets" class="btn btn-primary">Shop Windbreakers</a>
+            <button class="menu-toggle-btn" id="menuToggle" aria-label="Open mobile navigation menu">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+            </button>
+        </div>
+    </div>
+</header>
+
+<!-- Mobile Off-Canvas Drawer -->
+<div class="drawer-backdrop" id="drawerBackdrop"></div>
+<aside class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation Menu">
+    <div class="drawer-header">
+        <div class="brand-logo">
+            <span class="brand-icon">W</span>
+            <span>WindBreakGear</span>
+        </div>
+        <button class="drawer-close-btn" id="drawerClose" aria-label="Close mobile menu">&times;</button>
+    </div>
+    <nav class="drawer-nav">
+        <a href="index.html" class="drawer-link">Home</a>
+        <a href="about.html" class="drawer-link">About Outerwear</a>
+        <a href="index.html#jackets" class="drawer-link">Jackets Collection</a>
+        <a href="blog.html" class="drawer-link">Technical Blog</a>
+        <a href="contact.html" class="drawer-link">Contact & Studio</a>
+        <hr style="border: 0; border-top: 1px solid var(--color-border); margin: 0.5rem 0;">
+        <a href="privacy-policy.html" class="drawer-link">Privacy Policy</a>
+        <a href="terms-and-conditions.html" class="drawer-link">Terms & Conditions</a>
+        <a href="disclaimer.html" class="drawer-link">Disclaimer</a>
+        <a href="cookie-policy.html" class="drawer-link">Cookie Policy</a>
+    </nav>
+    <a href="index.html#jackets" class="btn btn-primary" style="width: 100%;">Explore Jackets</a>
+</aside>
+
+    <main class="section">
+        <div class="container">
+            <div class="policy-container">
+                <span class="section-eyebrow">Institutional Governance</span>
+                <h1>Cookie Architecture & Tracking Disclosure</h1>
+                <p style="font-size: 0.95rem; color: var(--color-text-muted); margin-bottom: 2.5rem;">Document Identifier: WBG-DOC-2026-V4 &bull; Last Revised: September 10, 2026 &bull; Certified Official Document</p>
+                <div class="policy-content">
+                    
+            <h2>1. Definitional Framework and Cookie Mechanical Functions</h2>
+            <p>
+                A computer cookie is a miniature, encrypted alphanumeric text file dispatched by a web server and deposited upon the local hard drive or solid-state memory of a user's computing device when browsing web portals. Cookies serve as essential digital memory tokens, enabling web applications to recognize specific browsers across distinct page requests, retain active shopping basket inventories, and store custom layout preferences. Without the mechanical deployment of foundational cookies, digital commerce systems would be rendered incapable of remembering authenticated patron sessions or securely transferring encrypted checkout tokens between successive web pages. WindBreakGear utilizes modern, security-hardened cookies engineered in full compliance with international privacy protocols.
+            </p>
+            <p>
+                Our technical infrastructure deploys two distinct operational classes of cookies: temporary session-based cookies and persistent configuration cookies. Session cookies exist solely within volatile device memory and are automatically scrubbed and extinguished the instant a patron terminates their web browser window. Persistent cookies, by contrast, remain retained within encrypted browser directories for a predetermined temporal lifespan (ranging from thirty days to twelve months) unless intentionally expunged by the user. These persistent tokens allow our system to remember your selected regional currency formatting, active measurement units (metric versus imperial), and whether you have previously acknowledged our institutional compliance banners upon prior visits.
+            </p>
+
+            <h2>2. Categorization of Deployed Digital Cookie Technologies</h2>
+            <p>
+                WindBreakGear categorizes all digital data tokens into three distinct operational classifications: Strictly Necessary Technical Cookies, Functional User Experience Cookies, and Performance Analytics Cookies. Strictly Necessary Cookies are indispensable to the core architectural stability of our storefront: they govern load-balancing server routing, maintain cryptographic CSRF token validation, and preserve your active outerwear sizing configurations during checkout. Because our digital storefront cannot function securely without these fundamental technical cookies, they are deployed automatically upon page initialization and cannot be disabled through standard frontend toggles without completely disabling e-commerce purchasing capabilities.
+            </p>
+            <p>
+                Performance Analytics Cookies are deployed to collect anonymous, aggregated telemetry regarding how patrons discover and interact with our technical outerwear educational resources. Specifically, we deploy Google Analytics Tag identifier G-0LY0HY7L01, which monitors overall page visitation counts, average dwell time across technical jacket specification sheets, and bounce rates across diverse browser platforms. This diagnostic information is processed strictly in de-identified, aggregated formats: customer IP addresses are automatically truncated and anonymized at the ingestion gateway before storage. We utilize these performance insights solely to optimize page loading velocity, improve mobile navigation layouts, and ensure our technical monographs remain effortlessly accessible to outdoor explorers globally.
+            </p>
+
+            <h2>3. Absence of Third-Party Behavioral Tracking and Ad Beacons</h2>
+            <p>
+                Unlike commercial mass-market fashion portals that embed aggressive cross-site tracking pixels, Facebook re-targeting cookies, and invasive ad-exchange tracking beacons, WindBreakGear strictly rejects predatory advertising surveillance. We do not participate in third-party cookie syndication networks that follow your digital footprint across external websites to display stalking banner advertisements. The telemetry gathered through our analytics configuration remains securely sequestered within our administrative domains and is never sold, licensed, or shared with commercial marketing aggregators. Our business model relies on crafting premier alpine-grade windbreakers, not monetizing the private browsing behaviors of our patrons.
+            </p>
+            <p>
+                Furthermore, we do not utilize fingerprinting scripts, canvas tracking techniques, or intrusive battery-level telemetry to circumvent user browser privacy controls. When a patron visits our website, our servers honor standard Global Privacy Control (GPC) signals and 'Do Not Track' (DNT) header declarations transmitted by privacy-focused web browsers. We believe that true institutional excellence encompasses not only the physical durability of our garments on the mountain, but also the unyielding ethical protection of our customers' digital sovereignty while browsing our digital collections.
+            </p>
+
+            <h2>4. Patron Consent Management and Browser Cookie Eradication</h2>
+            <p>
+                Patrons maintain absolute unilateral control over the storage, retention, and eradication of cookies upon their personal computing hardware. When first accessing the WindBreakGear website, visitors are presented with a clear, compliant consent banner allowing them to review our tracking policies and configure optional analytics permissions. You may adjust or revoke your cookie preferences at any time by accessing the cookie management interface located within the footer navigation of our platform. We ensure that choosing to decline non-essential performance analytics cookies will never degrade your ability to explore our catalog, review membrane specifications, or complete jacket purchases.
+            </p>
+            <p>
+                Additionally, all contemporary web browsers (including Google Chrome, Mozilla Firefox, Apple Safari, and Microsoft Edge) provide built-in administrative settings enabling users to inspect, block, or delete cookies at will. Patrons can configure their browser settings to systematically reject all third-party cookies, alert them whenever a new cookie token is dispatched, or clear all cached digital cookies automatically upon closing the application. For detailed guidance on configuring privacy parameters within your specific browser build, please consult the official documentation provided by your browser software vendor. For direct inquiries regarding our digital tracking architecture, our Mercer Street IT compliance desk remains available for consultation.
+            </p>
+            
+
+                    <!-- User Mandated: Dedicated Institutional Contact Card on ALL Policy Pages -->
+                    <div class="policy-contact-card">
+                        <h3>Customer Care, Outerwear Inquiries & Legal Compliance</h3>
+                        <p>
+                            For formal legal notices, warranty assessments, membrane technical certifications, or private data access requests, please direct all official communications to our Mercer Street compliance team:
+                        </p>
+                        <div class="policy-contact-grid">
+                            <div class="contact-meta-item">
+                                <strong>Physical Design Atelier</strong>
+                                <span>181 Mercer Street, New York, NY 10012, United States</span>
+                            </div>
+                            <div class="contact-meta-item">
+                                <strong>Telephone Customer Care</strong>
+                                <span>+1-888-777-5845 (Toll-Free USA & Canada)</span>
+                            </div>
+                            <div class="contact-meta-item">
+                                <strong>Dedicated Compliance Email</strong>
+                                <span>care@windbreakgear.com</span>
+                            </div>
+                            <div class="contact-meta-item">
+                                <strong>Response Service Level Agreement</strong>
+                                <span>All written communications resolved within 24 business hours</span>
+                            </div>
+                        </div>
+                        <div style="margin-top: 1.5rem;">
+                            <a href="contact.html" class="btn btn-primary">Contact Mercer Studio Directly</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="brand-logo" style="color: #FFF; margin-bottom: 1rem;">
+                    <span class="brand-icon">W</span>
+                    <span>WindBreakGear</span>
+                </div>
+                <p style="color: #94A3B8; font-size: 0.95rem; margin-bottom: 1.25rem;">
+                    Engineering alpine-grade windbreaker shells, micro-porous waterproof membranes, and packable stormwear designed to withstand hurricane-force summit winds.
+                </p>
+                <div class="footer-contact-info">
+                    181 Mercer Street, New York, NY 10012<br>
+                    Telephone: +1-888-777-5845<br>
+                    Atelier Email: care@windbreakgear.com
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Outerwear Shells</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html#jackets">The GaleForce Alpine Pro</a></li>
+                    <li><a href="index.html#jackets">Ultralight Trail Wind Shell</a></li>
+                    <li><a href="index.html#jackets">StormFront Anorak 3L</a></li>
+                    <li><a href="index.html#jackets">Packable Summit Hooded Jacket</a></li>
+                    <li><a href="about.html">Membrane Architecture</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Technical Research</h4>
+                <ul class="footer-links">
+                    <li><a href="blog/windproof-aerodynamics-and-boundary-layer-physics.html">Boundary Layer Physics</a></li>
+                    <li><a href="blog/fluorocarbon-free-c0-dwr-hydrophobic-chemistry.html">C0 Eco-DWR Chemistry</a></li>
+                    <li><a href="blog/3-layer-membrane-breathability-and-vapor-diffusion.html">3-Layer Vapor Diffusion</a></li>
+                    <li><a href="blog/ripstop-tensile-strength-and-cordura-reinforcement.html">Ripstop Tensile Mechanics</a></li>
+                    <li><a href="blog.html">Browse All Research</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Institutional & Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
+                    <li><a href="disclaimer.html">Legal Disclaimer</a></li>
+                    <li><a href="cookie-policy.html">Cookie Policy</a></li>
+                    <li><a href="contact.html">Customer Care & Support</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>&copy; 2026 WindBreakGear Inc. All rights reserved. Registered Alpine Outerwear Standard.</div>
+            <div>Mercer Street Design Atelier &bull; NYC</div>
+        </div>
+    </div>
+</footer>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
